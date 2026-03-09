@@ -1,0 +1,15 @@
+radxa-converter/
+├── CMakeLists.txt          # Конфигурация сборки
+├── build.sh                 # Скрипт сборки
+├── README.md                # Документация
+├── resources/               # Ресурсы (иконки, стили)
+└── src/                     # Исходный код
+    ├── main.cpp
+    ├── mainwindow.h/cpp
+    ├── sshclient.h/cpp
+    ├── filemanagerdialog.h/cpp
+    ├── batchqueuedialog.h/cpp
+    ├── profilesdialog.h/cpp
+    ├── conversionworker.h/cpp
+    ├── ffmpegparser.h/cpp
+    └── settingsmanager.h/cpp

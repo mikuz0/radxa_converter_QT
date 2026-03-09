@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikuz/src/radxa_converter_QT
+CMAKE_SOURCE_DIR = /home/mikuz/src/git/radxa_converter_QT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikuz/src/radxa_converter_QT/build
+CMAKE_BINARY_DIR = /home/mikuz/src/git/radxa_converter_QT/build
 
 # Utility rule file for radxa_converter_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/radxa_converter_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/radxa_converter_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/radxa_converter_autogen_timestamp_deps.dir/depend:
-	cd /home/mikuz/src/radxa_converter_QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikuz/src/radxa_converter_QT /home/mikuz/src/radxa_converter_QT /home/mikuz/src/radxa_converter_QT/build /home/mikuz/src/radxa_converter_QT/build /home/mikuz/src/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/mikuz/src/git/radxa_converter_QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikuz/src/git/radxa_converter_QT /home/mikuz/src/git/radxa_converter_QT /home/mikuz/src/git/radxa_converter_QT/build /home/mikuz/src/git/radxa_converter_QT/build /home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/radxa_converter_autogen_timestamp_deps.dir/depend
 

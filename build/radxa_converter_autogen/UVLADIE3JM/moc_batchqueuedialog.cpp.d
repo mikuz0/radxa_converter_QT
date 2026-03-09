@@ -1,7 +1,7 @@
-/home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_batchqueuedialog.cpp: /home/mikuz/src/radxa_converter_QT/src/batchqueuedialog.h \
-  /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/moc_predefs.h \
-  /home/mikuz/src/radxa_converter_QT/src/mainwindow.h \
-  /home/mikuz/src/radxa_converter_QT/src/settingsmanager.h \
+/home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_batchqueuedialog.cpp: /home/mikuz/src/git/radxa_converter_QT/src/batchqueuedialog.h \
+  /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/moc_predefs.h \
+  /home/mikuz/src/git/radxa_converter_QT/src/mainwindow.h \
+  /home/mikuz/src/git/radxa_converter_QT/src/settingsmanager.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

@@ -1,5 +1,5 @@
-/home/mikuz/src/radxa_converter_QT/build/CMakeFiles/radxa_converter.dir
-/home/mikuz/src/radxa_converter_QT/build/CMakeFiles/edit_cache.dir
-/home/mikuz/src/radxa_converter_QT/build/CMakeFiles/rebuild_cache.dir
-/home/mikuz/src/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen_timestamp_deps.dir
-/home/mikuz/src/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen.dir
+/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/radxa_converter.dir
+/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/edit_cache.dir
+/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/rebuild_cache.dir
+/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen_timestamp_deps.dir
+/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen.dir

@@ -1,17 +1,17 @@
 {
-	"BUILD_DIR" : "/home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen",
-	"CMAKE_BINARY_DIR" : "/home/mikuz/src/radxa_converter_QT/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/mikuz/src/radxa_converter_QT/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/mikuz/src/radxa_converter_QT",
+	"BUILD_DIR" : "/home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen",
+	"CMAKE_BINARY_DIR" : "/home/mikuz/src/git/radxa_converter_QT/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/mikuz/src/git/radxa_converter_QT/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/mikuz/src/git/radxa_converter_QT",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/mikuz/src/radxa_converter_QT/CMakeLists.txt",
-		"/home/mikuz/src/radxa_converter_QT/build/CMakeFiles/3.31.6/CMakeSystem.cmake",
+		"/home/mikuz/src/git/radxa_converter_QT/CMakeLists.txt",
+		"/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/3.31.6/CMakeSystem.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake",
-		"/home/mikuz/src/radxa_converter_QT/build/CMakeFiles/3.31.6/CMakeCCompiler.cmake",
-		"/home/mikuz/src/radxa_converter_QT/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
+		"/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/3.31.6/CMakeCCompiler.cmake",
+		"/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake",
@@ -99,64 +99,64 @@
 		"/usr/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake-3.31/Modules/FindPackageMessage.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/mikuz/src/radxa_converter_QT",
+	"CMAKE_SOURCE_DIR" : "/home/mikuz/src/git/radxa_converter_QT",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/deps",
+	"DEP_FILE" : "/home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "radxa_converter_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/mikuz/src/radxa_converter_QT/src/batchqueuedialog.h",
+			"/home/mikuz/src/git/radxa_converter_QT/src/batchqueuedialog.h",
 			"Mu",
 			"UVLADIE3JM/moc_batchqueuedialog.cpp",
 			null
 		],
 		[
-			"/home/mikuz/src/radxa_converter_QT/src/conversionworker.h",
+			"/home/mikuz/src/git/radxa_converter_QT/src/conversionworker.h",
 			"Mu",
 			"UVLADIE3JM/moc_conversionworker.cpp",
 			null
 		],
 		[
-			"/home/mikuz/src/radxa_converter_QT/src/ffmpegparser.h",
+			"/home/mikuz/src/git/radxa_converter_QT/src/ffmpegparser.h",
 			"Mu",
 			"UVLADIE3JM/moc_ffmpegparser.cpp",
 			null
 		],
 		[
-			"/home/mikuz/src/radxa_converter_QT/src/filemanagerdialog.h",
+			"/home/mikuz/src/git/radxa_converter_QT/src/filemanagerdialog.h",
 			"Mu",
 			"UVLADIE3JM/moc_filemanagerdialog.cpp",
 			null
 		],
 		[
-			"/home/mikuz/src/radxa_converter_QT/src/mainwindow.h",
+			"/home/mikuz/src/git/radxa_converter_QT/src/mainwindow.h",
 			"Mu",
 			"UVLADIE3JM/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"/home/mikuz/src/radxa_converter_QT/src/profilesdialog.h",
+			"/home/mikuz/src/git/radxa_converter_QT/src/profilesdialog.h",
 			"Mu",
 			"UVLADIE3JM/moc_profilesdialog.cpp",
 			null
 		],
 		[
-			"/home/mikuz/src/radxa_converter_QT/src/settingsmanager.h",
+			"/home/mikuz/src/git/radxa_converter_QT/src/settingsmanager.h",
 			"Mu",
 			"UVLADIE3JM/moc_settingsmanager.cpp",
 			null
 		],
 		[
-			"/home/mikuz/src/radxa_converter_QT/src/sshclient.h",
+			"/home/mikuz/src/git/radxa_converter_QT/src/sshclient.h",
 			"Mu",
 			"UVLADIE3JM/moc_sshclient.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CONCURRENT_LIB",
@@ -175,7 +175,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/mikuz/src/radxa_converter_QT/src",
+		"/home/mikuz/src/git/radxa_converter_QT/src",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
@@ -203,48 +203,60 @@
 		"-c",
 		"/usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "/home/mikuz/src/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/mikuz/src/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/mikuz/src/radxa_converter_QT/src/batchqueuedialog.cpp",
+			"/home/mikuz/src/git/radxa_converter_QT/src/batchqueuedialog.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/mikuz/src/radxa_converter_QT/src/conversionworker.cpp",
-			"Mu",
-			null
-		],
-		[ "/home/mikuz/src/radxa_converter_QT/src/ffmpegparser.cpp", "Mu", null ],
-		[
-			"/home/mikuz/src/radxa_converter_QT/src/filemanagerdialog.cpp",
-			"Mu",
-			null
-		],
-		[ "/home/mikuz/src/radxa_converter_QT/src/main.cpp", "Mu", null ],
-		[ "/home/mikuz/src/radxa_converter_QT/src/mainwindow.cpp", "Mu", null ],
-		[
-			"/home/mikuz/src/radxa_converter_QT/src/profilesdialog.cpp",
+			"/home/mikuz/src/git/radxa_converter_QT/src/conversionworker.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/mikuz/src/radxa_converter_QT/src/settingsmanager.cpp",
+			"/home/mikuz/src/git/radxa_converter_QT/src/ffmpegparser.cpp",
 			"Mu",
 			null
 		],
-		[ "/home/mikuz/src/radxa_converter_QT/src/sshclient.cpp", "Mu", null ]
+		[
+			"/home/mikuz/src/git/radxa_converter_QT/src/filemanagerdialog.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/mikuz/src/git/radxa_converter_QT/src/main.cpp", "Mu", null ],
+		[
+			"/home/mikuz/src/git/radxa_converter_QT/src/mainwindow.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/mikuz/src/git/radxa_converter_QT/src/profilesdialog.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/mikuz/src/git/radxa_converter_QT/src/settingsmanager.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/mikuz/src/git/radxa_converter_QT/src/sshclient.cpp",
+			"Mu",
+			null
+		]
 	],
 	"USE_BETTER_GRAPH" : false,
 	"VERBOSITY" : 0

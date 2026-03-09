@@ -1,7 +1,7 @@
 CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o: \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/mocs_compilation.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_batchqueuedialog.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_batchqueuedialog.cpp \
  /usr/include/c++/15/memory /usr/include/c++/15/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
@@ -122,7 +122,7 @@ CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/15/backward/auto_ptr.h \
  /usr/include/c++/15/pstl/glue_memory_defs.h \
  /usr/include/c++/15/pstl/execution_defs.h \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/batchqueuedialog.h \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/batchqueuedialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -330,7 +330,7 @@ CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcheckbox.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpinBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/mainwindow.h \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMap \
@@ -365,16 +365,16 @@ CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/settingsmanager.h \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/settingsmanager.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_conversionworker.cpp \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/conversionworker.h \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_conversionworker.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/conversionworker.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/sshclient.h \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/sshclient.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
  /usr/include/libssh/libssh.h /usr/include/libssh/libssh_version.h \
@@ -401,8 +401,8 @@ CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/libssh/legacy.h \
  /usr/include/libssh/sftp.h /usr/include/libssh/libssh.h \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_filemanagerdialog.cpp \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/filemanagerdialog.h \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_filemanagerdialog.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/filemanagerdialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTreeWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtreewidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtreeview.h \
@@ -418,11 +418,11 @@ CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_mainwindow.cpp \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/mainwindow.h \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_profilesdialog.cpp \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/profilesdialog.h \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_settingsmanager.cpp \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/settingsmanager.h \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_sshclient.cpp \
- /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/sshclient.h
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_mainwindow.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/mainwindow.h \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_profilesdialog.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/profilesdialog.h \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_settingsmanager.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/settingsmanager.h \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_sshclient.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/../../../src/sshclient.h

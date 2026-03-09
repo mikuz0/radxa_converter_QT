@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikuz/src/radxa_converter_QT
+CMAKE_SOURCE_DIR = /home/mikuz/src/git/radxa_converter_QT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikuz/src/radxa_converter_QT/build
+CMAKE_BINARY_DIR = /home/mikuz/src/git/radxa_converter_QT/build
 
 # Utility rule file for radxa_converter_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/radxa_converter_autogen: radxa_converter_autogen/timestamp
 
 radxa_converter_autogen/timestamp: /usr/lib/qt5/bin/moc
 radxa_converter_autogen/timestamp: CMakeFiles/radxa_converter_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mikuz/src/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target radxa_converter"
-	/usr/bin/cmake -E cmake_autogen /home/mikuz/src/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target radxa_converter"
+	/usr/bin/cmake -E cmake_autogen /home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/timestamp
 
 CMakeFiles/radxa_converter_autogen.dir/codegen:
 .PHONY : CMakeFiles/radxa_converter_autogen.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/radxa_converter_autogen.dir/clean:
 .PHONY : CMakeFiles/radxa_converter_autogen.dir/clean
 
 CMakeFiles/radxa_converter_autogen.dir/depend:
-	cd /home/mikuz/src/radxa_converter_QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikuz/src/radxa_converter_QT /home/mikuz/src/radxa_converter_QT /home/mikuz/src/radxa_converter_QT/build /home/mikuz/src/radxa_converter_QT/build /home/mikuz/src/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/mikuz/src/git/radxa_converter_QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikuz/src/git/radxa_converter_QT /home/mikuz/src/git/radxa_converter_QT /home/mikuz/src/git/radxa_converter_QT/build /home/mikuz/src/git/radxa_converter_QT/build /home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/radxa_converter_autogen.dir/depend
 

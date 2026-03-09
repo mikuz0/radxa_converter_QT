@@ -16,10 +16,10 @@
 #include <QDebug>
 #include <QProgressDialog>
 
-FileManagerDialog::FileManagerDialog(SSHClient *sshClient, QWidget *parent)
+FileManagerDialog::FileManagerDialog(SSHClient *sshClient, QWidget *parent, const QString &initialPath)
 : QDialog(parent)
 , m_sshClient(sshClient)
-, m_currentPath(sshClient->getHomeDirectory())  // Используем домашний каталог пользователя
+, m_currentPath("/")
 {
     setWindowTitle("Файловый менеджер Radxa");
     resize(900, 600);
@@ -109,11 +109,14 @@ FileManagerDialog::FileManagerDialog(SSHClient *sshClient, QWidget *parent)
     connect(m_deleteBtn, &QPushButton::clicked, this, &FileManagerDialog::deleteItem);
     btnLayout->addWidget(m_deleteBtn);
 
-
-
     m_refreshBtn = new QPushButton("🔄 Обновить");
     connect(m_refreshBtn, &QPushButton::clicked, this, &FileManagerDialog::refreshList);
     btnLayout->addWidget(m_refreshBtn);
+
+    // НОВАЯ КНОПКА ЗАКРЫТИЯ
+    QPushButton *closeBtn = new QPushButton("✕ Закрыть");
+    connect(closeBtn, &QPushButton::clicked, this, &QDialog::accept);
+    btnLayout->addWidget(closeBtn);
 
     btnLayout->addStretch();
     mainLayout->addLayout(btnLayout);
@@ -122,7 +125,14 @@ FileManagerDialog::FileManagerDialog(SSHClient *sshClient, QWidget *parent)
     m_statusLabel = new QLabel;
     mainLayout->addWidget(m_statusLabel);
 
-    // Загружаем список файлов
+    // Определяем начальный путь
+    if (!initialPath.isEmpty() && checkPathExists(initialPath)) {
+        m_currentPath = initialPath;
+    } else {
+        m_currentPath = m_sshClient->getHomeDirectory();
+    }
+
+    m_pathEdit->setText(m_currentPath);
     refreshList();
 
     // Контекстное меню
@@ -135,7 +145,6 @@ FileManagerDialog::FileManagerDialog(SSHClient *sshClient, QWidget *parent)
         menu.addSeparator();
         menu.addAction("Скачать", this, &FileManagerDialog::downloadFile);
         menu.addAction("Удалить", this, &FileManagerDialog::deleteItem);
-
         menu.exec(m_fileTree->viewport()->mapToGlobal(pos));
     });
 }
@@ -340,20 +349,31 @@ void FileManagerDialog::selectAsSource()
     }
 
     emit fileSelected(m_selectedFiles.first());
-    accept();
+    // Убираем accept() - диалог НЕ закрывается
+    // accept();
+
+    // Можно показать сообщение об успехе
+    m_statusLabel->setText("✓ Файл выбран как исходный");
 }
 
 void FileManagerDialog::selectAsOutputDir()
 {
+    QString selectedDir;
+
     // Если выбран файл, используем его директорию
     if (!m_selectedFiles.isEmpty()) {
         QFileInfo info(m_selectedFiles.first());
-        emit directorySelected(info.path());
+        selectedDir = info.path();
     } else {
         // Иначе используем текущую директорию
-        emit directorySelected(m_currentPath);
+        selectedDir = m_currentPath;
     }
-    accept();
+
+    emit directorySelected(selectedDir);
+    // Убираем accept() - диалог НЕ закрывается
+    // accept();
+
+    m_statusLabel->setText("✓ Папка результата выбрана: " + selectedDir);
 }
 
 void FileManagerDialog::addToBatch()
@@ -612,4 +632,37 @@ void FileManagerDialog::showFileInfo()
     .arg(info.suffix().toUpper());
 
     QMessageBox::information(this, "Свойства файла", infoText);
+}
+
+bool FileManagerDialog::checkPathExists(const QString &path)
+{
+    if (!m_sshClient->isConnected()) {
+        return false;
+    }
+
+    ssh_session session = m_sshClient->getSession();
+    if (!session) {
+        return false;
+    }
+
+    sftp_session sftp = sftp_new(session);
+    if (!sftp) {
+        return false;
+    }
+
+    if (sftp_init(sftp) != SSH_OK) {
+        sftp_free(sftp);
+        return false;
+    }
+
+    // Пытаемся открыть директорию
+    sftp_dir dir = sftp_opendir(sftp, path.toStdString().c_str());
+    if (dir) {
+        sftp_closedir(dir);
+        sftp_free(sftp);
+        return true;
+    }
+
+    sftp_free(sftp);
+    return false;
 }

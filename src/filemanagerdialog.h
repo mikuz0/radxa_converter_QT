@@ -14,7 +14,7 @@ class FileManagerDialog : public QDialog
 {
     Q_OBJECT
 public:
-    explicit FileManagerDialog(SSHClient *sshClient, QWidget *parent = nullptr);
+    explicit FileManagerDialog(SSHClient *sshClient, QWidget *parent = nullptr, const QString &initialPath = QString());
 
 signals:
     void fileSelected(const QString &path);
@@ -39,6 +39,7 @@ private slots:
     void filterFiles(const QString &text);
 
 private:
+     bool checkPathExists(const QString &path);
     void loadDirectory(const QString &path);
     QString formatSize(qint64 size) const;
     QString getFileIcon(const QString &filename, bool isDir);

@@ -1,7 +1,7 @@
 CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o: \
- /home/mikuz/src/radxa_converter_QT/src/mainwindow.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/src/mainwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/mikuz/src/radxa_converter_QT/src/mainwindow.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -333,12 +333,12 @@ CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
- /home/mikuz/src/radxa_converter_QT/src/settingsmanager.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/settingsmanager.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
- /home/mikuz/src/radxa_converter_QT/src/sshclient.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/sshclient.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
  /usr/include/libssh/libssh.h /usr/include/libssh/libssh_version.h \
@@ -365,7 +365,7 @@ CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/libssh/legacy.h \
  /usr/include/libssh/sftp.h /usr/include/libssh/libssh.h \
- /home/mikuz/src/radxa_converter_QT/src/filemanagerdialog.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/filemanagerdialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTreeWidget \
@@ -402,10 +402,10 @@ CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h \
- /home/mikuz/src/radxa_converter_QT/src/conversionworker.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/conversionworker.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h \
- /home/mikuz/src/radxa_converter_QT/src/batchqueuedialog.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/batchqueuedialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtablewidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtableview.h \
@@ -415,7 +415,7 @@ CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcheckbox.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpinBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h \
- /home/mikuz/src/radxa_converter_QT/src/profilesdialog.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/profilesdialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \

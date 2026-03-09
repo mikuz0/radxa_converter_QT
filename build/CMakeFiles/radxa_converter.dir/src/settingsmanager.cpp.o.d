@@ -1,7 +1,7 @@
 CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.o: \
- /home/mikuz/src/radxa_converter_QT/src/settingsmanager.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/src/settingsmanager.cpp \
  /usr/include/stdc-predef.h \
- /home/mikuz/src/radxa_converter_QT/src/settingsmanager.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/settingsmanager.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \

@@ -1,7 +1,7 @@
 CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.o: \
- /home/mikuz/src/radxa_converter_QT/src/profilesdialog.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/src/profilesdialog.cpp \
  /usr/include/stdc-predef.h \
- /home/mikuz/src/radxa_converter_QT/src/profilesdialog.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/profilesdialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -330,7 +330,7 @@ CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/quuid.h \
- /home/mikuz/src/radxa_converter_QT/src/settingsmanager.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/settingsmanager.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \

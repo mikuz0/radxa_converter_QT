@@ -1,7 +1,7 @@
 CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o: \
- /home/mikuz/src/radxa_converter_QT/src/batchqueuedialog.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/src/batchqueuedialog.cpp \
  /usr/include/stdc-predef.h \
- /home/mikuz/src/radxa_converter_QT/src/batchqueuedialog.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/batchqueuedialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -329,7 +329,7 @@ CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcheckbox.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpinBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h \
- /home/mikuz/src/radxa_converter_QT/src/mainwindow.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMap \
@@ -364,7 +364,7 @@ CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
- /home/mikuz/src/radxa_converter_QT/src/settingsmanager.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/settingsmanager.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikuz/src/radxa_converter_QT
+CMAKE_SOURCE_DIR = /home/mikuz/src/git/radxa_converter_QT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikuz/src/radxa_converter_QT/build
+CMAKE_BINARY_DIR = /home/mikuz/src/git/radxa_converter_QT/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/radxa_converter.dir/depend.make
@@ -71,9 +71,9 @@ include CMakeFiles/radxa_converter.dir/flags.make
 
 radxa_converter_autogen/timestamp: /usr/lib/qt5/bin/moc
 radxa_converter_autogen/timestamp: CMakeFiles/radxa_converter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mikuz/src/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target radxa_converter"
-	/usr/bin/cmake -E cmake_autogen /home/mikuz/src/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target radxa_converter"
+	/usr/bin/cmake -E cmake_autogen /home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/radxa_converter_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/timestamp
 
 CMakeFiles/radxa_converter.dir/codegen:
 .PHONY : CMakeFiles/radxa_converter.dir/codegen
@@ -81,142 +81,142 @@ CMakeFiles/radxa_converter.dir/codegen:
 CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o: CMakeFiles/radxa_converter.dir/flags.make
 CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o: radxa_converter_autogen/mocs_compilation.cpp
 CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o: CMakeFiles/radxa_converter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o -MF CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o -c /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o -MF CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.o -c /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/mocs_compilation.cpp
 
 CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/mocs_compilation.cpp > CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/mocs_compilation.cpp > CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/mocs_compilation.cpp -o CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/mocs_compilation.cpp -o CMakeFiles/radxa_converter.dir/radxa_converter_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/radxa_converter.dir/src/main.cpp.o: CMakeFiles/radxa_converter.dir/flags.make
-CMakeFiles/radxa_converter.dir/src/main.cpp.o: /home/mikuz/src/radxa_converter_QT/src/main.cpp
+CMakeFiles/radxa_converter.dir/src/main.cpp.o: /home/mikuz/src/git/radxa_converter_QT/src/main.cpp
 CMakeFiles/radxa_converter.dir/src/main.cpp.o: CMakeFiles/radxa_converter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/radxa_converter.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/main.cpp.o -MF CMakeFiles/radxa_converter.dir/src/main.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/main.cpp.o -c /home/mikuz/src/radxa_converter_QT/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/radxa_converter.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/main.cpp.o -MF CMakeFiles/radxa_converter.dir/src/main.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/main.cpp.o -c /home/mikuz/src/git/radxa_converter_QT/src/main.cpp
 
 CMakeFiles/radxa_converter.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/radxa_converter.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/radxa_converter_QT/src/main.cpp > CMakeFiles/radxa_converter.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/git/radxa_converter_QT/src/main.cpp > CMakeFiles/radxa_converter.dir/src/main.cpp.i
 
 CMakeFiles/radxa_converter.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/radxa_converter.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/radxa_converter_QT/src/main.cpp -o CMakeFiles/radxa_converter.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/git/radxa_converter_QT/src/main.cpp -o CMakeFiles/radxa_converter.dir/src/main.cpp.s
 
 CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o: CMakeFiles/radxa_converter.dir/flags.make
-CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o: /home/mikuz/src/radxa_converter_QT/src/mainwindow.cpp
+CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o: /home/mikuz/src/git/radxa_converter_QT/src/mainwindow.cpp
 CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o: CMakeFiles/radxa_converter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o -MF CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o -c /home/mikuz/src/radxa_converter_QT/src/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o -MF CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.o -c /home/mikuz/src/git/radxa_converter_QT/src/mainwindow.cpp
 
 CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/radxa_converter_QT/src/mainwindow.cpp > CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/git/radxa_converter_QT/src/mainwindow.cpp > CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.i
 
 CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/radxa_converter_QT/src/mainwindow.cpp -o CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/git/radxa_converter_QT/src/mainwindow.cpp -o CMakeFiles/radxa_converter.dir/src/mainwindow.cpp.s
 
 CMakeFiles/radxa_converter.dir/src/sshclient.cpp.o: CMakeFiles/radxa_converter.dir/flags.make
-CMakeFiles/radxa_converter.dir/src/sshclient.cpp.o: /home/mikuz/src/radxa_converter_QT/src/sshclient.cpp
+CMakeFiles/radxa_converter.dir/src/sshclient.cpp.o: /home/mikuz/src/git/radxa_converter_QT/src/sshclient.cpp
 CMakeFiles/radxa_converter.dir/src/sshclient.cpp.o: CMakeFiles/radxa_converter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/radxa_converter.dir/src/sshclient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/sshclient.cpp.o -MF CMakeFiles/radxa_converter.dir/src/sshclient.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/sshclient.cpp.o -c /home/mikuz/src/radxa_converter_QT/src/sshclient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/radxa_converter.dir/src/sshclient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/sshclient.cpp.o -MF CMakeFiles/radxa_converter.dir/src/sshclient.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/sshclient.cpp.o -c /home/mikuz/src/git/radxa_converter_QT/src/sshclient.cpp
 
 CMakeFiles/radxa_converter.dir/src/sshclient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/radxa_converter.dir/src/sshclient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/radxa_converter_QT/src/sshclient.cpp > CMakeFiles/radxa_converter.dir/src/sshclient.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/git/radxa_converter_QT/src/sshclient.cpp > CMakeFiles/radxa_converter.dir/src/sshclient.cpp.i
 
 CMakeFiles/radxa_converter.dir/src/sshclient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/radxa_converter.dir/src/sshclient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/radxa_converter_QT/src/sshclient.cpp -o CMakeFiles/radxa_converter.dir/src/sshclient.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/git/radxa_converter_QT/src/sshclient.cpp -o CMakeFiles/radxa_converter.dir/src/sshclient.cpp.s
 
 CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.o: CMakeFiles/radxa_converter.dir/flags.make
-CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.o: /home/mikuz/src/radxa_converter_QT/src/settingsmanager.cpp
+CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.o: /home/mikuz/src/git/radxa_converter_QT/src/settingsmanager.cpp
 CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.o: CMakeFiles/radxa_converter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.o -MF CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.o -c /home/mikuz/src/radxa_converter_QT/src/settingsmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.o -MF CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.o -c /home/mikuz/src/git/radxa_converter_QT/src/settingsmanager.cpp
 
 CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/radxa_converter_QT/src/settingsmanager.cpp > CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/git/radxa_converter_QT/src/settingsmanager.cpp > CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.i
 
 CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/radxa_converter_QT/src/settingsmanager.cpp -o CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/git/radxa_converter_QT/src/settingsmanager.cpp -o CMakeFiles/radxa_converter.dir/src/settingsmanager.cpp.s
 
 CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.o: CMakeFiles/radxa_converter.dir/flags.make
-CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.o: /home/mikuz/src/radxa_converter_QT/src/filemanagerdialog.cpp
+CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.o: /home/mikuz/src/git/radxa_converter_QT/src/filemanagerdialog.cpp
 CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.o: CMakeFiles/radxa_converter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.o -MF CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.o -c /home/mikuz/src/radxa_converter_QT/src/filemanagerdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.o -MF CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.o -c /home/mikuz/src/git/radxa_converter_QT/src/filemanagerdialog.cpp
 
 CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/radxa_converter_QT/src/filemanagerdialog.cpp > CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/git/radxa_converter_QT/src/filemanagerdialog.cpp > CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.i
 
 CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/radxa_converter_QT/src/filemanagerdialog.cpp -o CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/git/radxa_converter_QT/src/filemanagerdialog.cpp -o CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.s
 
 CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o: CMakeFiles/radxa_converter.dir/flags.make
-CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o: /home/mikuz/src/radxa_converter_QT/src/batchqueuedialog.cpp
+CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o: /home/mikuz/src/git/radxa_converter_QT/src/batchqueuedialog.cpp
 CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o: CMakeFiles/radxa_converter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o -MF CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o -c /home/mikuz/src/radxa_converter_QT/src/batchqueuedialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o -MF CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.o -c /home/mikuz/src/git/radxa_converter_QT/src/batchqueuedialog.cpp
 
 CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/radxa_converter_QT/src/batchqueuedialog.cpp > CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/git/radxa_converter_QT/src/batchqueuedialog.cpp > CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.i
 
 CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/radxa_converter_QT/src/batchqueuedialog.cpp -o CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/git/radxa_converter_QT/src/batchqueuedialog.cpp -o CMakeFiles/radxa_converter.dir/src/batchqueuedialog.cpp.s
 
 CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.o: CMakeFiles/radxa_converter.dir/flags.make
-CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.o: /home/mikuz/src/radxa_converter_QT/src/profilesdialog.cpp
+CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.o: /home/mikuz/src/git/radxa_converter_QT/src/profilesdialog.cpp
 CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.o: CMakeFiles/radxa_converter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.o -MF CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.o -c /home/mikuz/src/radxa_converter_QT/src/profilesdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.o -MF CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.o -c /home/mikuz/src/git/radxa_converter_QT/src/profilesdialog.cpp
 
 CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/radxa_converter_QT/src/profilesdialog.cpp > CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/git/radxa_converter_QT/src/profilesdialog.cpp > CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.i
 
 CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/radxa_converter_QT/src/profilesdialog.cpp -o CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/git/radxa_converter_QT/src/profilesdialog.cpp -o CMakeFiles/radxa_converter.dir/src/profilesdialog.cpp.s
 
 CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.o: CMakeFiles/radxa_converter.dir/flags.make
-CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.o: /home/mikuz/src/radxa_converter_QT/src/ffmpegparser.cpp
+CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.o: /home/mikuz/src/git/radxa_converter_QT/src/ffmpegparser.cpp
 CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.o: CMakeFiles/radxa_converter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.o -MF CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.o -c /home/mikuz/src/radxa_converter_QT/src/ffmpegparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.o -MF CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.o -c /home/mikuz/src/git/radxa_converter_QT/src/ffmpegparser.cpp
 
 CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/radxa_converter_QT/src/ffmpegparser.cpp > CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/git/radxa_converter_QT/src/ffmpegparser.cpp > CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.i
 
 CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/radxa_converter_QT/src/ffmpegparser.cpp -o CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/git/radxa_converter_QT/src/ffmpegparser.cpp -o CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.s
 
 CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.o: CMakeFiles/radxa_converter.dir/flags.make
-CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.o: /home/mikuz/src/radxa_converter_QT/src/conversionworker.cpp
+CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.o: /home/mikuz/src/git/radxa_converter_QT/src/conversionworker.cpp
 CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.o: CMakeFiles/radxa_converter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.o -MF CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.o -c /home/mikuz/src/radxa_converter_QT/src/conversionworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.o -MF CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.o.d -o CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.o -c /home/mikuz/src/git/radxa_converter_QT/src/conversionworker.cpp
 
 CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/radxa_converter_QT/src/conversionworker.cpp > CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikuz/src/git/radxa_converter_QT/src/conversionworker.cpp > CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.i
 
 CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/radxa_converter_QT/src/conversionworker.cpp -o CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikuz/src/git/radxa_converter_QT/src/conversionworker.cpp -o CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.s
 
 # Object files for target radxa_converter
 radxa_converter_OBJECTS = \
@@ -252,7 +252,7 @@ radxa_converter: /usr/lib/x86_64-linux-gnu/libQt5Concurrent.so.5.15.17
 radxa_converter: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.17
 radxa_converter: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.17
 radxa_converter: CMakeFiles/radxa_converter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mikuz/src/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable radxa_converter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable radxa_converter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/radxa_converter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -264,6 +264,6 @@ CMakeFiles/radxa_converter.dir/clean:
 .PHONY : CMakeFiles/radxa_converter.dir/clean
 
 CMakeFiles/radxa_converter.dir/depend: radxa_converter_autogen/timestamp
-	cd /home/mikuz/src/radxa_converter_QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikuz/src/radxa_converter_QT /home/mikuz/src/radxa_converter_QT /home/mikuz/src/radxa_converter_QT/build /home/mikuz/src/radxa_converter_QT/build /home/mikuz/src/radxa_converter_QT/build/CMakeFiles/radxa_converter.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/mikuz/src/git/radxa_converter_QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikuz/src/git/radxa_converter_QT /home/mikuz/src/git/radxa_converter_QT /home/mikuz/src/git/radxa_converter_QT/build /home/mikuz/src/git/radxa_converter_QT/build /home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/radxa_converter.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/radxa_converter.dir/depend
 

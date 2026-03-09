@@ -1,26 +1,26 @@
 radxa_converter_autogen/timestamp: \
-	/home/mikuz/src/radxa_converter_QT/CMakeLists.txt \
-	/home/mikuz/src/radxa_converter_QT/build/CMakeFiles/3.31.6/CMakeCCompiler.cmake \
-	/home/mikuz/src/radxa_converter_QT/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake \
-	/home/mikuz/src/radxa_converter_QT/build/CMakeFiles/3.31.6/CMakeSystem.cmake \
-	/home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/moc_predefs.h \
-	/home/mikuz/src/radxa_converter_QT/src/batchqueuedialog.cpp \
-	/home/mikuz/src/radxa_converter_QT/src/batchqueuedialog.h \
-	/home/mikuz/src/radxa_converter_QT/src/conversionworker.cpp \
-	/home/mikuz/src/radxa_converter_QT/src/conversionworker.h \
-	/home/mikuz/src/radxa_converter_QT/src/ffmpegparser.cpp \
-	/home/mikuz/src/radxa_converter_QT/src/ffmpegparser.h \
-	/home/mikuz/src/radxa_converter_QT/src/filemanagerdialog.cpp \
-	/home/mikuz/src/radxa_converter_QT/src/filemanagerdialog.h \
-	/home/mikuz/src/radxa_converter_QT/src/main.cpp \
-	/home/mikuz/src/radxa_converter_QT/src/mainwindow.cpp \
-	/home/mikuz/src/radxa_converter_QT/src/mainwindow.h \
-	/home/mikuz/src/radxa_converter_QT/src/profilesdialog.cpp \
-	/home/mikuz/src/radxa_converter_QT/src/profilesdialog.h \
-	/home/mikuz/src/radxa_converter_QT/src/settingsmanager.cpp \
-	/home/mikuz/src/radxa_converter_QT/src/settingsmanager.h \
-	/home/mikuz/src/radxa_converter_QT/src/sshclient.cpp \
-	/home/mikuz/src/radxa_converter_QT/src/sshclient.h \
+	/home/mikuz/src/git/radxa_converter_QT/CMakeLists.txt \
+	/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/3.31.6/CMakeCCompiler.cmake \
+	/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake \
+	/home/mikuz/src/git/radxa_converter_QT/build/CMakeFiles/3.31.6/CMakeSystem.cmake \
+	/home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/moc_predefs.h \
+	/home/mikuz/src/git/radxa_converter_QT/src/batchqueuedialog.cpp \
+	/home/mikuz/src/git/radxa_converter_QT/src/batchqueuedialog.h \
+	/home/mikuz/src/git/radxa_converter_QT/src/conversionworker.cpp \
+	/home/mikuz/src/git/radxa_converter_QT/src/conversionworker.h \
+	/home/mikuz/src/git/radxa_converter_QT/src/ffmpegparser.cpp \
+	/home/mikuz/src/git/radxa_converter_QT/src/ffmpegparser.h \
+	/home/mikuz/src/git/radxa_converter_QT/src/filemanagerdialog.cpp \
+	/home/mikuz/src/git/radxa_converter_QT/src/filemanagerdialog.h \
+	/home/mikuz/src/git/radxa_converter_QT/src/main.cpp \
+	/home/mikuz/src/git/radxa_converter_QT/src/mainwindow.cpp \
+	/home/mikuz/src/git/radxa_converter_QT/src/mainwindow.h \
+	/home/mikuz/src/git/radxa_converter_QT/src/profilesdialog.cpp \
+	/home/mikuz/src/git/radxa_converter_QT/src/profilesdialog.h \
+	/home/mikuz/src/git/radxa_converter_QT/src/settingsmanager.cpp \
+	/home/mikuz/src/git/radxa_converter_QT/src/settingsmanager.h \
+	/home/mikuz/src/git/radxa_converter_QT/src/sshclient.cpp \
+	/home/mikuz/src/git/radxa_converter_QT/src/sshclient.h \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/bitsperlong.h \
 	/usr/include/asm-generic/errno-base.h \

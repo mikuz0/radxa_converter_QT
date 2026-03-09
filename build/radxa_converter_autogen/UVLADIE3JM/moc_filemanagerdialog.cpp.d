@@ -1,6 +1,6 @@
-/home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_filemanagerdialog.cpp: /home/mikuz/src/radxa_converter_QT/src/filemanagerdialog.h \
-  /home/mikuz/src/radxa_converter_QT/build/radxa_converter_autogen/moc_predefs.h \
-  /home/mikuz/src/radxa_converter_QT/src/sshclient.h \
+/home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/UVLADIE3JM/moc_filemanagerdialog.cpp: /home/mikuz/src/git/radxa_converter_QT/src/filemanagerdialog.h \
+  /home/mikuz/src/git/radxa_converter_QT/build/radxa_converter_autogen/moc_predefs.h \
+  /home/mikuz/src/git/radxa_converter_QT/src/sshclient.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

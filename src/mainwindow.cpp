@@ -550,15 +550,16 @@ void MainWindow::showFileManager()
             m_fileManagerDialog->raise();
             m_fileManagerDialog->activateWindow();
         } else {
-            delete m_fileManagerDialog;  // Удаляем закрытый диалог
+            delete m_fileManagerDialog;
             m_fileManagerDialog = nullptr;
         }
     }
 
-    // Создаем новый диалог
+    // Создаем новый диалог с сохраненной папкой результата
     if (!m_fileManagerDialog) {
-        m_fileManagerDialog = new FileManagerDialog(m_sshClient.get(), this);
-        m_fileManagerDialog->setAttribute(Qt::WA_DeleteOnClose);  // Важно!
+        // Передаем сохраненную папку результата как начальный путь
+        m_fileManagerDialog = new FileManagerDialog(m_sshClient.get(), this, m_outputDir);
+        m_fileManagerDialog->setAttribute(Qt::WA_DeleteOnClose);
 
         connect(m_fileManagerDialog, &FileManagerDialog::fileSelected,
                 this, &MainWindow::onFileSelected);
@@ -1088,6 +1089,9 @@ void MainWindow::onDirectorySelected(const QString &path)
     m_outputDirLabel->setText(path);
     m_settings->setOutputDir(path);
     appendLog("Папка результата: " + path);
+
+    // Если файловый менеджер открыт, можно обновить его текущий путь
+    // (опционально)
 }
 
 void MainWindow::onFilesAddedToBatch(const QStringList &files)

@@ -1,7 +1,7 @@
 CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.o: \
- /home/mikuz/src/radxa_converter_QT/src/filemanagerdialog.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/src/filemanagerdialog.cpp \
  /usr/include/stdc-predef.h \
- /home/mikuz/src/radxa_converter_QT/src/filemanagerdialog.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/filemanagerdialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -336,7 +336,7 @@ CMakeFiles/radxa_converter.dir/src/filemanagerdialog.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
- /home/mikuz/src/radxa_converter_QT/src/sshclient.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/sshclient.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \

@@ -1,7 +1,7 @@
 CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.o: \
- /home/mikuz/src/radxa_converter_QT/src/conversionworker.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/src/conversionworker.cpp \
  /usr/include/stdc-predef.h \
- /home/mikuz/src/radxa_converter_QT/src/conversionworker.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/conversionworker.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
@@ -262,7 +262,7 @@ CMakeFiles/radxa_converter.dir/src/conversionworker.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
- /home/mikuz/src/radxa_converter_QT/src/sshclient.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/sshclient.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
  /usr/include/libssh/libssh.h /usr/include/libssh/libssh_version.h \

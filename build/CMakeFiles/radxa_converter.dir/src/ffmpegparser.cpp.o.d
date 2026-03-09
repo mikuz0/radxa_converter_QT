@@ -1,7 +1,7 @@
 CMakeFiles/radxa_converter.dir/src/ffmpegparser.cpp.o: \
- /home/mikuz/src/radxa_converter_QT/src/ffmpegparser.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/src/ffmpegparser.cpp \
  /usr/include/stdc-predef.h \
- /home/mikuz/src/radxa_converter_QT/src/ffmpegparser.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/ffmpegparser.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \

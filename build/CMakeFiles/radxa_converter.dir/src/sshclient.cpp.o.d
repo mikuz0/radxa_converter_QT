@@ -1,7 +1,7 @@
 CMakeFiles/radxa_converter.dir/src/sshclient.cpp.o: \
- /home/mikuz/src/radxa_converter_QT/src/sshclient.cpp \
+ /home/mikuz/src/git/radxa_converter_QT/src/sshclient.cpp \
  /usr/include/stdc-predef.h \
- /home/mikuz/src/radxa_converter_QT/src/sshclient.h \
+ /home/mikuz/src/git/radxa_converter_QT/src/sshclient.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \

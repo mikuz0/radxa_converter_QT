@@ -58,6 +58,7 @@
 
 ### Для работы:
 - Radxa ROCK 4D с установленным ffmpeg (с поддержкой RKMPP)
+https://mkuznecov.ru/linux/kompiljacija-i-ustanovka-ffmpeg-s-podderzhkoj-rockchip/
 - SSH доступ к Radxa
 
 ## 📦 Установка зависимостей
@@ -205,6 +206,7 @@ make -j$(nproc)
 
 MIT License
 👨‍💻 Авторы
+Галантерейщик и Deepseek
 
 Разработано для управления аппаратным перекодированием на Radxa ROCK 4D
 🙏 Благодарности
@@ -214,3 +216,4 @@ MIT License
     Основан на фреймворке Qt5
 
     Аппаратное кодирование через FFmpeg с поддержкой RKMPP
+    https://mkuznecov.ru/linux/kompiljacija-i-ustanovka-ffmpeg-s-podderzhkoj-rockchip/
